@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+
+  color: white;
+}
+
+.nav-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logonText {
+  margin-left: 3vw;
+}
+a:link {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: red;
+}
+
+li {
+  color: white;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 50vw;
+  margin-right: 50px;
+}
+.sub {
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  right: 36%;
+  color: white;
+}
+
+.logonText {
+  display: flex;
+  flex-direction: row;
+}
+
+h3 {
+  right: 34%;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
